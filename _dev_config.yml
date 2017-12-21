@@ -1,0 +1,44 @@
+# Created by webjeda - http://webjeda.com
+
+# Site settings
+title: "Pizza de Dados"
+title-font-size: '4em'
+lang: pt-br
+
+email: pizzadedados@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Pizza de Dados podcast, um podcast onde pessoas comuns discutem ciência de dados
+baseurl: ""
+# url: "http://podcast.datascience.pizza" # the base hostname & protocol for your site
+
+permalink: :title/
+
+# Build settings
+markdown: kramdown
+highlight: rouge
+paginate: 5
+paginate_path: /page:num/
+
+# feed
+description: O podcast Brasileiro sobre ciência de dados.
+author: Leticia Portella, Jessica Temporal e Gustavo Coelho
+image-url: http://podcast.datascience.pizza/images/avatar.large.png
+
+# Tracker
+# analytics: UA-106178084-2 
+
+# Comments
+# disqus-shortname: pizzadedados
+
+# Contact form
+# Go to https://getsimpleform.com and get a API token by signing up with your email and enter that here
+# api-token:
+
+#CSS
+sass:
+  style: compressed
+
+
+include: [_pages, images/avatar.large.png]
+
+plugins: [jekyll-paginate, jekyll-seo-tag]
