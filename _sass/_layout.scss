@@ -26,10 +26,10 @@
     &:visited {
         color: $grey-color;
     }
-    
+
     @include media-query($on-laptop) {
         font-size: 3em;
-    } 
+    }
     @include media-query($on-palm) {
             font-size: 2.75em;
     }
@@ -95,13 +95,12 @@
         color: $background-color;
         background: $brand-color;
     }
-    
-     @include media-query($on-laptop) {
-            font-size: 0.8em;
-            margin-left: 5px;
-         
-        }
-        
+
+    @include media-query($on-laptop) {
+        font-size: 0.8em;
+        margin-left: 5px;
+
+    }
 }
 
 
@@ -163,8 +162,6 @@ table {
     @include media-query($on-palm) {
         height: 180px;
     }
-
-    
 }
 
 .post {
